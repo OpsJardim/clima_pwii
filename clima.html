@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima</title>
+    <link rel="stylesheet" href="clima.css">
+</head>
+<body>
+    <form class="busca">
+        <input type="search" id="searchinput">
+        <button>Buscar</button>
+    </form>
+
+    <div class="resultado">
+        <div class="titulo">---</div>
+
+        <div class="info">
+            <div class="temp">
+                <div class="tempTitulo">Temperatura</div>
+                <div class="tempInfo">-- <sup>°C</sup></div>
+                <!--inserir imagem-->
+            </div>
+
+            <div class="vento">
+                <div class="ventoTitulo">Vento</div>
+                <div class="ventoInfo">-- <span>km/h</span></div>
+                <div class="ventoArea">
+                    <div class="ventoPonto" style="transform: rotate(0deg)"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="aviso"></div>
+    <footer>Criado por Duda Jardim</footer>
+    <script src="clima.js"></script>
+</body>
+</html>
